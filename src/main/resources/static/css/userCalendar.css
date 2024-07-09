@@ -1,0 +1,77 @@
+/* userCalendar.css */
+
+*
+ {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 20px;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+}
+
+/* 以下、ヘッダー */
+header {
+    width: 100%;
+    padding: 30px 4% 10px;
+    background-color: #fff;
+    top: 0;    /* トップに位置を固定 */
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 20px;
+}
+
+a {	
+   text-decoration: none;
+   color: #4b4b4b;
+}
+
+ul {
+   list-style: none;  /* 中点を非表示 */
+   margin: 0;
+   display: flex;
+}
+
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+nav {
+   margin: 0 0 0 auto;  /* 上右下左 */
+}
+
+/* 以下、カレンダー */
+
+.calendar {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calendar th {
+  background-color: #f2f2f2;
+}
+
+.calendar th,
+.calendar td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.calendar td {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
+

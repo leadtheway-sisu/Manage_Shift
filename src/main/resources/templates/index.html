@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" th:href="@{/css/index.css}" type="text/css">
+  <script type="text/javascript" th:src="@{/js/index.js}"></script>
+  <title>ホーム</title>
+</head>
+
+<body>
+  <header>
+    <h1>HOME</h1>
+    <nav class="pc-nav">
+      <ul>
+        <li><a href="./user.html" th:href="@{/user}">ユーザーページ</a></li>
+        <li><a href="./admin.html" th:href="@{/admin}">管理者ページ</a></li>
+        <li>
+          <form th:action="@{/logout}" method="post">
+            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
+            <button type="submit">Logout</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="shift-table">
+    <table id="shift-table">
+      <thead>
+        <tr>
+          <th>従業員名</th>
+          <!-- ここに次月の日付を動的に挿入 -->
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- ここに従業員名と日付に関連するデータを動的に挿入 -->
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+/* index.css */
+@charset "UTF-8";
+
+body {
+   margin: 20px;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6; /* 背景色を設定 */
+    background-image: url('/img/sea-side.jpg'); /* 背景画像のパスを指定 */
+    background-size: cover; /* 画像を要素全体に広げる */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像の繰り返しを無効化 */
+    height: 100vh; 
+}
+
+/* 以下、ヘッダー */
+header {
+    width: 100%;
+    padding: 20px ;
+    background-color: rgba(255, 255, 255, 0.7); /* 白色の半透明 */
+    top: 0;    /* トップに位置を固定 */
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    z-index: 1000;
+    
+}
+
+h1 {
+   margin: 0; 
+   padding: 0;
+   font-size: 20px;
+}
+
+a {	
+   text-decoration: none;
+   color: #4b4b4b;
+}
+
+ul {
+   list-style: none;  /* 中点を非表示 */
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+li {
+   margin: 0 15px 0 0;
+   font-size: 14px;
+}
+
+nav {
+   margin: 0 0 0 auto;  /* 上右下左 */
+   margin-left: auto; /* ログアウトボタンを右寄せにする */
+}
+
+/*以下、表*/
+
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+       
+        
+        .shift-table {
+            max-width: 100%; /* コンテナの幅いっぱいに広げる */
+            overflow-x: auto; /* 横スクロールが発生した場合にスクロールバーを表示 */
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+            margin-bottom: 20px; /* 下に余白を追加 */
+        }
+
+        table {
+            width: 100%; /* テーブルの幅をコンテンツに応じて自動調整 */
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 6px;
+            text-align: center; /* セルのテキストを中央寄せにする */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }        
+        
+        /* スクロールバーの設定 */
+        
+		.shift-table::-webkit-scrollbar {
+		    width: 10px; 
+		    background-color: #f0f0f0; /* スクロールバーの背景色 */
+		}
+		
+		/* スクロールバーのレール（トラック） */
+		.shift-table::-webkit-scrollbar-track {
+		    background-color: #f0f0f0; /* スクロールバーの背景色 */
+		}
+		
+		/* スクロールバーのthumb（つまみ部分） */
+		.shift-table::-webkit-scrollbar-thumb {
+		    background-color: #40e0d0; /* ターコイズ色 */
+		    border-radius: 5px; 
+		    border: 2px solid #f0f0f0; /* スクロールバーのつまみの周囲のボーダー */
+		}
+		
+		/* スクロールバーのcorner（角） */
+		.shift-table::-webkit-scrollbar-corner {
+		    background-color: #f0f0f0; /* スクロールバーの背景色 */
+		}
+		
+		.shift-table::-webkit-scrollbar {
+		  background: #000;
+		  width: 15px;
+		  height: 15px;
+		  border-radius: 20px;
+		}
+		.shift-table::-webkit-scrollbar-thumb {
+		  border-radius: 20px;
+		}
+				
+				
+				        
