@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <h2>Welcome New User</h2>
+    <form th:action="@{/register}" method="post">
+        <label for="name">名前:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="password">パスワード:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="employeeid">社員番号:</label><br>
+        <input type="text" id="employeeid" name="employeeid" required><br>
+        <label for="role">属性:</label><br>
+        <select id="role" name="role" required>
+			<option value="">選んでください</option>
+			<option value="USER">一般</option>
+			<option value="ADMIN">管理者</option>
+		</select><br>
+        <input type="submit" value="登録">
+    </form>
+</body>
+</html>

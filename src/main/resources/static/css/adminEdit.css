@@ -1,0 +1,89 @@
+/* adminEdit.css */
+
+body {
+   margin: 20px;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+}
+
+/* 以下、ヘッダー */
+header {
+    width: 100%;
+    padding: 20px ;
+    background-color: #fff;
+    top: 0;    /* トップに位置を固定 */
+    display: flex;
+    align-items: center;
+    
+}
+
+h1 {
+   margin: 0; 
+   padding: 0;
+   font-size: 20px;
+}
+
+a {	
+   text-decoration: none;
+   color: #4b4b4b;
+}
+
+ul {
+   list-style: none;  /* 中点を非表示 */
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+li {
+   margin: 0 15px 0 0;
+   font-size: 14px;
+}
+
+nav {
+   margin: 0 0 0 auto;  /* 上右下左 */
+   margin-left: auto; /* ログアウトボタンを右寄せにする */
+}
+
+
+/*以下、表*/
+
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .shift-table {
+            max-width: 100%; /* コンテナの幅いっぱいに広げる */
+            overflow-x: auto; /* 横スクロールが発生した場合にスクロールバーを表示 */
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+            margin-bottom: 20px; /* 下に余白を追加 */
+        }
+
+        table {
+            width: 100%; /* テーブルの幅をコンテンツに応じて自動調整 */
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 6px;
+            text-align: center; /* セルのテキストを中央寄せにする */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }        

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログインページ</title>
+    <!-- Bootstrap CSSの読み込み -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+		body {
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    height: 100vh;
+		    margin: 0;
+		    font-family: Arial, sans-serif;
+		    /* 背景画像の設定 */
+		    background-image: url('/img/beachWwave2.jpg');
+		    /* 背景の繰り返し方法 */
+		    background-repeat: no-repeat;
+		    background-size: 50%; /* 画像を縮小して左半分に表示 */
+		    /* 画像を左上に配置 */
+		    background-position: left top;
+		    background-attachment: fixed; /* スクロールしても背景が固定される */
+	    }
+
+		.login-container {    
+    		font-family: 'Sylfaen', Arial, sans-serif; /* フォントをHelvetica Neueに変更 */    		
+		}
+		
+        .login-container {
+       		position: relative;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+            margin-left: auto; /* 右に寄せる */
+            margin-right: auto; /* 左に寄せる */ 
+        }
+
+        .login-container h2 {
+            margin-bottom: 1.5rem;
+            color: white;
+            text-shadow: 
+	        -1px -1px 0 #000,  
+	         1px -1px 0 #000,
+	        -1px  1px 0 #000,
+	         1px  1px 0 #000; /* テキストの縁取り */
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(0, 255, 255);
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: rgb(0, 128, 255);
+        }
+        
+        .login-container {
+	    background-image: url('/img/beachWwave2.jpg'); /* 背景画像のパス */
+	    background-size: cover; /* 画像をボックスに合わせて調整 */
+	    background-position: center; /* 画像を中央に配置 */
+	    background-repeat: no-repeat; /* 画像の繰り返しを無効化 */
+	    background-color: rgba(255, 255, 255, 0.3); /* 白色の透明度を設定 */
+	    padding: 2rem;
+	    border-radius: 8px;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	    width: 80%;
+	    max-width: 600px;
+	    
+		}
+
+        .login-container p {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .login-container p a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .login-container p a:hover {
+            text-decoration: underline;   
+        }
+        
+       
+        /*　動画　*/
+        
+        section {
+		  height: 80vh;
+		}
+
+		.video-container {
+		 /* ビデオの位置調整のために指定 */
+  		position: relative;
+
+  		width: 100%;
+  		height: 100%;
+  		/* ビデオが画面からはみ出ないようにする */
+  		overflow: hidden;
+  		/* オーバーレイ */
+  		background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
+		}
+
+		.video-container video {
+  		position: absolute;
+  		/* ビデオの真ん中が表示されるようにする */
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+
+  		min-width: 100%;
+  		min-height: 100%;
+  		/* 後ろにずらして文字が隠れないようにする */
+  		z-index: -1;
+		}
+
+		.contents-container {
+  		position: absolute;
+  		color: #fff;
+ 		z-index: 1;
+  		padding: 20px 50px;
+		}
+              
+    </style> 
+
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Welcome</h2>
+        <form method="post" th:action="@{/login}">
+            <div th:if="${param.error}">
+                <div class="alert alert-danger">
+                    <span th:text="${session.SPRING_SECURITY_LAST_EXCEPTION.message ?: 'ユーザー情報が存在しません'}"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name">ユーザー名</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="password">パスワード</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">LOGIN</button>
+        </form>
+        <br>
+        <a th:href="@{'/register'}">New Registration Here</a>
+    </div>
+      
+	<div class="video-container">
+  		<video autoplay muted loop>
+    		<source th:src="@{/img/runningthroughBeach.mp4}" type="video/mp4">
+		</video>
+	</div><!-- video-container -->
+
+</body>
+
+</html>
