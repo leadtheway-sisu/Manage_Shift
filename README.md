@@ -10,7 +10,7 @@ Please see the figure below.
 
 ## Usage (Index)
 1. **LOGIN**  
-In this phase, you can register your own or other new users, can login to the home-page. Only users having the autherities(ADMIN or USERS) can enter the page.
+In this phase, you can register your own as a user or create other new users, can login to the home-page. Only users having the autherities(ADMIN or USERS) can enter the page.
 
 ![MS_register8](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/497cb7e3-b820-44e0-a6ff-e337c5165803)
   
