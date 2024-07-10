@@ -13,7 +13,7 @@ Please see the figure below.
 ![MS_register8](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/497cb7e3-b820-44e0-a6ff-e337c5165803)
   
 2. **HOME** This page shows the next month's shift shedule. Every welcomed users can see it and check it.
-
+![home-MS](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/f6e99e55-b86a-4d59-9c68-79f472d4c95e)
 
 3. **FOR USERS** Every month, the users submit multiple holiday-requests from this page. After submitting the holiday-requests, users can confirm the submitted requests by visiting this page again.
 ![MS_User](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/c736048c-5d4c-49da-a1f1-a110ca47e0d7)
