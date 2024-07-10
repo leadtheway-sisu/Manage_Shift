@@ -1,9 +1,15 @@
 # Manage_Shift
-当プロジェクトは、シフトの半自動作成を目的としています。
-シフト制の現場で毎月訪れるタスクにも関わらず、労力や時間のかかるシフト作成の工程をどうにか簡略化したく作成しました。
-登録された各ユーザーは休日希望を提出し、
-その情報をもとに管理者がシフトの最終調整を行い、
-完成したシフトをユーザー全員が確認することができます。
+**Manage_Shift** is a tool which will help you to make a shift schedule.  
 
-## 仕様
+## Demo
 
+
+## Skills
+<img src="https://img.shields.io/badge/-Java-007396.svg?logo=java&style=plastic"> <img src="https://img.shields.io/badge/-Javascript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-Html5-E34F26.svg?logo=html5&style=plastic"> <img src="https://img.shields.io/badge/-Mysql-4479A1.svg?logo=mysql&style=plastic"> <img src="https://img.shields.io/badge/-Css3-1572B6.svg?logo=css3&style=plastic">
+
+## Usage
+
+## Directory
+tree command
+
+## License
