@@ -10,8 +10,10 @@ Please see the figure below.
 
 ## Usage (Index)
 1. **LOGIN** In this phase, you can register your own or other new users, can login to the home-page. Only users having the autherities(ADMIN or USERS) can enter the page.
+![MS_register8](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/497cb7e3-b820-44e0-a6ff-e337c5165803)
   
 2. **HOME** This page shows the next month's shift shedule. Every welcomed users can see it and check it.
+
 
 3. **FOR USERS** Every month, the users submit multiple holiday-requests from this page. After submitting the holiday-requests, users can confirm the submitted requests by visiting this page again.
 
