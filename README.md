@@ -3,6 +3,7 @@
 
 ## Demo
 Please see the figure below.
+![MS_demo2](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/8ed91bb4-430d-4db5-8123-366faa26eb99)
 
 
 ## Skills
@@ -26,3 +27,6 @@ Please see the figure below.
 ![image](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/fa3f4350-4dab-4c49-8813-28d2f09589c8)
 
 ## License
+Copyright (c) [2024] [leadthewai-sisu]
+This software is released under the MIT License, see LICENSE, see LICENSE.
+This website content is released under the CC BY 4.0 License, see LICENSE.
