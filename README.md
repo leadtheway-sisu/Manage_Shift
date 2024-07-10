@@ -16,6 +16,8 @@ Please see the figure below.
 
 
 3. **FOR USERS** Every month, the users submit multiple holiday-requests from this page. After submitting the holiday-requests, users can confirm the submitted requests by visiting this page again.
+![MS_User](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/c736048c-5d4c-49da-a1f1-a110ca47e0d7)
+
 
 4. **FOR ADMIN** This page shows the collected holiday-requests from every users to the administer. The administer can see the whole requests from users and edit the shift schedule. After finishing to adjust the shift, the editer requires to submit the completed shift. Then the completed shift appears in *HOME* page.  
 
