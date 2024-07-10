@@ -1,4 +1,6 @@
-# Manage_Shift
+# Manage_Shift  
+![Polish_20240710_142513449](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/e8ed9fde-9984-41a2-9591-8905ddde2e05)
+
 *Manage_Shift* is a tool which will help you to make a shift schedule.  
 
 ## Demo
