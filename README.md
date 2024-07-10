@@ -35,5 +35,5 @@ This page shows the collected holiday-requests from every users to the administe
 
 ## License
 Copyright (c) [2024] [leadthewai-sisu]  
-This software is released under the MIT License, see LICENSE, see LICENSE.
+This software is released under the MIT License, see LICENSE, see LICENSE.  
 This website content is released under the CC BY 4.0 License, see LICENSE.
