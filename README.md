@@ -3,6 +3,8 @@
 
 *Manage_Shift* is a tool which will help you to make a shift schedule.  
 
+：*Manage_shift* は、シフトの半自動作成ツールです。特に多くのスタッフが働く現場にいて、シフト作成は毎月訪れるタスクにも関わらず、多大な労力と時間を要します。そのプロセスをどうにか簡略化できないかと考え、作成に至りました。
+
 ## Demo
 Please see the figure below.
 ![MS_demo2](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/8ed91bb4-430d-4db5-8123-366faa26eb99)
