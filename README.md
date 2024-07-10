@@ -20,6 +20,7 @@ Please see the figure below.
 
 
 4. **FOR ADMIN** This page shows the collected holiday-requests from every users to the administer. The administer can see the whole requests from users and edit the shift schedule. After finishing to adjust the shift, the editer requires to submit the completed shift. Then the completed shift appears in *HOME* page.  
+![MS_Admin](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/11a32b2b-1ac3-4cba-b130-8f242b9045e5)
 
 ## Directory
 ![image](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/fa3f4350-4dab-4c49-8813-28d2f09589c8)
