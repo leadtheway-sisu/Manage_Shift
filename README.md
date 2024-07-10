@@ -30,7 +30,7 @@ Every month, the users submit multiple holiday-requests from this page. After su
 
 
 5. **FOR ADMIN**  
-This page shows the collected holiday-requests from every users to the administer. The administer can see the whole requests from users and edit the shift schedule. After finishing to adjust the shift, the editer requires to submit the completed shift. Then the completed shift appears in *HOME* page.  
+This page shows the collected holiday-requests from every users. The administer can see the whole requests from users and edit the shift schedule. After finishing to adjust the shift, the editer requires to submit the completed shift. Then the completed shift appears in *HOME* page as a table.  
 
 ![MS_Admin](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/11a32b2b-1ac3-4cba-b130-8f242b9045e5)
 
