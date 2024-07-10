@@ -34,6 +34,6 @@ This page shows the collected holiday-requests from every users to the administe
 ![image](https://github.com/leadtheway-sisu/Manage_Shift/assets/173324629/fa3f4350-4dab-4c49-8813-28d2f09589c8)
 
 ## License
-Copyright (c) [2024] [leadthewai-sisu]
+Copyright (c) [2024] [leadthewai-sisu]  
 This software is released under the MIT License, see LICENSE, see LICENSE.
 This website content is released under the CC BY 4.0 License, see LICENSE.
